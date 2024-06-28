@@ -11,6 +11,9 @@ public class App {
 
     // make the DJ play music
 
+    DJ myDJ = new DJ("Greatest DJ ever!");
+    // can be whatever just illustrate the point that the method playable is generic and run the program!
+    myDJ.playMusic(myIPhone, "Baby by Justin Bieber");
 
   }
 
