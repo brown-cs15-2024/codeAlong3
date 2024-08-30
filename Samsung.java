@@ -2,7 +2,9 @@ package codeAlong3;
 
 public class Samsung extends Electronics implements Playable{
 
-  public Samsung(){}
+  public Samsung(){
+    super();
+  }
 
   @Override
   public void startSong(String songName) {

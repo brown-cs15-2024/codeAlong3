@@ -2,7 +2,9 @@ package codeAlong3;
 
 public class IPhone extends Electronics implements Playable {
 
-  public IPhone(){}
+  public IPhone(){
+    super();
+  }
 
   @Override
   public void startSong(String songName) {
