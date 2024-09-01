@@ -7,4 +7,10 @@ public class DJ {
   public void playMusic(){
 
   }
+
+  public void setUpDevice(){
+
+  }
+
 }
+

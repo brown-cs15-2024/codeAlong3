@@ -8,4 +8,12 @@ public class IPhone {
     System.out.println("Playing " + songName + " from IPhone!");
   }
 
+  public void plugIn(){
+    System.out.println("IPhone has been plugged in");
+  }
+
+  public void turnOn(){
+    System.out.println("IPhone has been turned on");
+  }
+
 }

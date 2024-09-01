@@ -6,10 +6,20 @@ public class App {
 
     // instantiate new devices
     IPhone myIPhone = new IPhone();
-    IPod myIPod = new IPod();
+    CDPlayer myCDPlayer = new CDPlayer();
     Radio myRadio = new Radio();
+    Microphone myMicrophone = new Microphone();
+
+    // instantiate DJ
+    DJ myDJ = new DJ();
+
+
+    // make the DJ set up devices
+
+
 
     // make the DJ play music
+
 
 
   }
