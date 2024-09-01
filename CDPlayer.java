@@ -1,6 +1,6 @@
 package codeAlong3;
 
-public class CDPlayer extends Electronics implements Playable{
+public class CDPlayer extends Electronic implements Playable{
 
   public CDPlayer(){
     super();

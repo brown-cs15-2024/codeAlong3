@@ -1,6 +1,6 @@
 package codeAlong3;
 
-public class IPhone extends Electronics implements Playable {
+public class IPhone extends Electronic implements Playable {
 
   public IPhone(){
     super();

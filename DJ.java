@@ -5,7 +5,7 @@ public class DJ {
   public DJ(String name) {}
 
   //method for the DJ to set up equipment
-  public void setUpDevice(Electronics myElectronic, String myDevice) {
+  public void setUpDevice(Electronic myElectronic, String myDevice) {
     myElectronic.plugIn(myDevice);
     myElectronic.turnOn(myDevice);
   }

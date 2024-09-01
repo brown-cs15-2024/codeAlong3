@@ -1,10 +1,8 @@
 package codeAlong3;
 
-public abstract class Electronics {
+public abstract class Electronic {
 
-    public Electronics (){
-        super();
-    }
+    public Electronic(){}
 
     public void plugIn(String myDevice) {
         System.out.println(myDevice + " has been plugged in!");
