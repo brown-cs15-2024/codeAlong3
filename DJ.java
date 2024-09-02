@@ -11,6 +11,5 @@ public class DJ {
   public void setUpDevice(){
 
   }
-
 }
 
