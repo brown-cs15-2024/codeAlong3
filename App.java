@@ -6,7 +6,7 @@ public class App {
 
     // instantiate new devices
     IPhone myIPhone = new IPhone();
-    Samsung mySamsung = new Samsung();
+    Radio mySamsung = new Radio();
     CDPlayer myCDPlayer = new CDPlayer();
     Microphone myMicrophone = new Microphone();
 

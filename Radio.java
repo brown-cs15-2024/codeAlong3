@@ -1,8 +1,8 @@
 package codeAlong3;
 
-public class Samsung extends Electronic implements Playable{
+public class Radio extends Electronic implements Playable{
 
-  public Samsung(){
+  public Radio(){
     super();
   }
 
