@@ -5,6 +5,4 @@ public class Microphone extends Electronic {
     public Microphone (){
         super();
     }
-
-
 }
