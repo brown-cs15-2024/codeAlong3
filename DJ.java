@@ -4,7 +4,7 @@ public class DJ {
 
   public DJ(){}
 
-  public void playMusic(){
+  public void playRequest(){
 
   }
 

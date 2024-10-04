@@ -5,7 +5,12 @@ public class Radio {
   public Radio(){}
 
   public void playRadio(String songName){
+    this.adjustAntenna();
     System.out.println("Playing " + songName + " from Radio!");
+  }
+
+  private void adjustAntenna(){
+    System.out.println("Adjusting the antenna for the radio...");
   }
 
   public void plugIn(){

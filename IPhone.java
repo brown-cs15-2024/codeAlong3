@@ -2,10 +2,19 @@ package codeAlong3;
 
 public class IPhone {
 
-  public IPhone(){}
+  private int batteryLife;
+  public IPhone(){
+    this.batteryLife = 100;
+  }
 
   public void playIPhone(String songName){
+    this.searchOnSpotify();
     System.out.println("Playing " + songName + " from IPhone!");
+    this.batteryLife--;
+  }
+
+  private void searchOnSpotify(){
+    System.out.println("Searching on Spotify...");
   }
 
   public void plugIn(){
