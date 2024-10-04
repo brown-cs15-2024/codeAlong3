@@ -11,6 +11,7 @@ public class IPhone {
     this.searchOnSpotify();
     System.out.println("Playing " + songName + " from IPhone!");
     this.batteryLife--;
+    System.out.println("Battery now at " + this.batteryLife);
   }
 
   private void searchOnSpotify(){
