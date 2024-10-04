@@ -7,10 +7,10 @@ public class Party {
         DJ lefty = new DJ();
 
         //Instantiate devices
-        CDPlayer cdPlayer = new CDPlayer();
-        IPhone iPhone = new IPhone();
-        Radio radio = new Radio();
-        Microphone mic = new Microphone();
+        CDPlayer leftCDPlayer = new CDPlayer();
+        IPhone leftyIPhone = new IPhone();
+        Radio leftyRadio = new Radio();
+        Microphone leftyMic = new Microphone();
 
         //TODO: have the DJ set up devices!
 
